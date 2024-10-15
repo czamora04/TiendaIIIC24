@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+package com.tienda.service;
+
+import com.tienda.domain.Categoria;
+import java.util.List;
+
+/**
+ *
+ * @author Carlos Zamora
+ */
+public interface CategoriaService {
+    
+    //El siguiente método retorna una lista con las categorias
+    //que están en la tabla Categoria, todas o solo las activas
+    public List<Categoria> getCategorias(boolean activos);
+    
+}
